@@ -2,5 +2,6 @@
  Google Landing Page Clone to put in practice some HTML and CSS concepts!
  
  Started at: 20/03/2022
+ <br>
  Version: 1.0
  

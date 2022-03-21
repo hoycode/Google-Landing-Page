@@ -1,11 +1,11 @@
-body{
+body {
     margin: auto;
     margin-top: 20px;
     height: 100%;
     font-family: arial, sans-serif;
 }
 
-.nav-ul li{
+.nav-ul li {
     list-style: none;
     display: inline-block;
 }
@@ -14,32 +14,32 @@ body{
     text-align: right;
 }
 
-.nav-ul li a{
+.nav-ul li a {
     color: black;
     text-decoration: none;
 }
 
-.nav-ul li{
+.nav-ul li {
     margin-right: 10px;
     vertical-align: middle;
     margin-right: 15px;
     margin-left: 15px;
 }
 
-.nav-ul li:last-child{
+.nav-ul li:last-child {
     padding: 20px;
 }
 
 
-.nav-ul li:last-child:hover{
-    
+.nav-ul li:last-child:hover {
+
     background-color: grey;
     border-radius: 100px;
 }
 
 /* CSS Button */
 
-.btn-entrar{
+.btn-entrar {
     border-radius: 8px;
     border-color: white;
     background-color: #1a73e8;
@@ -50,7 +50,7 @@ body{
     text-decoration: none;
 }
 
-.nav-ul .btn-entrar:hover{
+.nav-ul .btn-entrar:hover {
     background-color: #2b7de9;
     text-decoration: none;
     color: white;
@@ -60,8 +60,8 @@ body{
 
 /* CSS Logo */
 
-#logo img{
-    
+#logo img {
+
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -72,19 +72,49 @@ body{
 
 /* CSS Search Box */
 
-.search-container form{
+.search-container{
     text-align: center;
     display: block;
     margin-top: 40px;
 }
 
-.search-box {
-    border-radius: 20px;
-    border-style: solid;
-    border-color: #b8bfcc;
-    border-width: thin;
-    width: 35%;
-    height: 40px;
+
+.search-container input {
+    padding-left: 48px;
 }
 
+.search-container span {
+    position: absolute;
+    left: 2px;
+}
 
+.search-box:hover{
+    box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
+
+.search-box {
+    
+    border-radius: 20px;
+    border-style: solid;
+    border-width: thin;
+    width: 550px;
+    height: 40px;
+
+    /* Set the border to a solid color */
+    border: 1px solid #dddddd;
+
+    /* Disable the outline */
+    outline: none;
+
+    /* Set the padding-left to '40px' that will make the cursor to start the 40px from the left  */
+    padding-left: 40px;
+
+    position: relative;
+
+    /* Icon Inside Search Bar */
+
+    background: url(images/search-logo.png) no-repeat scroll 20px 15px, url(images/keyboard-logo.png) no-repeat scroll 500px 15px, url(images/keyboard-logo.png) no-repeat scroll 550px 15px;
+    padding-left: 30px;
+    background-size: 15px;
+
+}

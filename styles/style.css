@@ -1,0 +1,162 @@
+body {
+  margin: auto;
+  margin-top: 20px;
+  height: 100%;
+  font-family: arial, sans-serif;
+}
+
+/* Start of search box */
+
+.search-container {
+  text-align: center;
+  display: block;
+  margin-top: 40px;
+}
+
+.search-container input {
+  padding-left: 48px;
+}
+
+.search-container span {
+  position: absolute;
+  left: 2px;
+}
+
+.search-box:hover {
+  box-shadow: 0px 1px 3px rgb(192, 185, 185);
+}
+
+.search-box {
+  border-radius: 20px;
+  border-style: solid;
+  border-width: thin;
+  width: 550px;
+  height: 40px;
+
+  /* Set the border to a solid color */
+  border: 1px solid #dddddd;
+
+  /* Disable the outline */
+  outline: none;
+
+  /* Set the padding-left to '40px' that will make the cursor to start the 40px from the left  */
+  padding-left: 40px;
+
+  position: relative;
+}
+
+/*  Search Buttons */
+
+.search-buttons {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.search-buttons div {
+  display: inline;
+}
+
+.search-buttons a {
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #f8f9fa;
+  color: #3c4043;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  cursor: pointer;
+
+  margin: 11px 4px;
+  padding: 10px 16px 10px 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+
+  text-align: center;
+  user-select: none;
+}
+
+.search-buttons a:hover {
+  border: solid 1px #e0e0e0;
+  border-bottom-width: 2px;
+}
+
+/* End of search box */
+
+
+#page-container {
+  position: relative;
+  min-height: 88vh;
+}
+
+/* Start of country name div */
+#country {
+  padding: 15px 30px;
+  width: auto;
+  background-color: #f3f3f2;
+  border-bottom: 1px solid #c2c2c2;
+  color: #70757a;
+  font-size: 14px;
+}
+
+/* End of country name div */
+
+
+/* Start of footer */
+
+footer {
+  background-color: #f3f3f2;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+.footer-content a {
+  display: block;
+  padding: 15px;
+  white-space: nowrap;
+  color: #70757a;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-content a:hover{
+  text-decoration: underline;
+}
+
+.footer-content img {
+  height: 14px;
+  margin-right: 6px;
+}
+
+.float-div {
+  justify-content: flex-start;
+  min-width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fdiv1 {
+  order: 1;
+  justify-content: flex-start;
+  min-width: 30%;
+}
+
+.fdiv2 {
+  order: 2;
+}
+
+.fdiv3 {
+  order: 3;
+  justify-content: flex-end;
+  min-width: 30%;
+}
+
+/* End of footer */

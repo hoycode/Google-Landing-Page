@@ -2,7 +2,16 @@
 
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./styles/style.css">
+<link rel="stylesheet" href="./styles/menu.css">
+<link rel="icon" type="image/x-icon" href="/assets/icons/favicon.ico">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="scripts/landing.js"></script>
+
+<title>Google</title>
 
 <head>
 
@@ -14,22 +23,71 @@
     <div class="nav-menu">
         <div class="nav-ul">
             <ul>
-                <li id="btn-gmail"><a href="#">Gmail</a></li>
-                <li id="btn-images"><a href="#">Imagens</a></li>
-                <li title="Google Apps"><a href="#"><img src="images/dot-grid.svg" alt="dot-grid" /></a></li>
-                <a class="btn-entrar" href="https://accounts.google.com/">Entrar</a>
+                <div class="buttons-container">
+                    <li id="btn-gmail"><a href="#">Gmail</a></li>
+                    <li id="btn-images"><a href="#">Imagens</a></li>
+                </div>
+                <div class="others-container">
+                    <div class="background-dot">
+                        <li title="Google Apps" id="dot-grid"><a href="#"><img
+                                    src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-512.png"
+                                    alt="dot-grid" /></a>
+                        </li>
+                    </div>
+                    <a class="btn-entrar" href="https://accounts.google.com/">Entrar</a>
+                </div>
             </ul>
         </div>
     </div>
 
-    <!--Coqntent-->
-    <div id="content">
-        <!--Logo-->
-        <div id="logo"><img src="images/logo.png" alt="Google Logo"></div>
-        <!--Search Box-->
-        <div class="search-container">
-            <input type="text" class="search-box" title="Pesquisar">
+    <!--Content-->
+    <div id="page-container">
+        <div id="content-wrap">
+            <!--Logo-->
+            <div id="logo"><img src="assets/images/logo.png" alt="Google Logo"></div>
+            <!--Search Box-->
+            <div class="search-container">
+                <input type="text" class="search-box" title="Pesquisar">
+            </div>
+
+            <div class="search-buttons">
+                <div>
+                    <a href="#">Pesquisa Google</a>
+
+                </div>
+                <div>
+                    <a href="#">Sinto-me com sorte</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="empty">
+
         </div>
 </body>
+
+<footer>
+
+    <div id="country"></div>
+
+    <div class="footer-content">
+        <div class="float-div fdiv1">
+            <a href="#">Sobre</a>
+            <a href="#">Publicidade</a>
+            <a href="#">Negócios</a>
+            <a href="#">Como funciona a Pesquisa</a>
+        </div>
+        <div class="float-div fdiv2">
+            <a href="#"><img src="images/icons/leaf-icon.png" alt=""></img>Neutralização de emissões de carbono desde 2007</a>
+        </div>
+        <div class="float-div fdiv3">
+            <a href="#">Privacidade</a>
+            <a href="#">Termos</a>
+            <a href="#">Definições</a>
+
+        </div>
+    </div>
+
+</footer>
 
 </html>
